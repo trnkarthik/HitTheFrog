@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HitTheFrog2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_anim_sprite">AnimSprite</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_menu_example">MenuExample</string>
+    <string name="title_activity_high_scores">HighScores</string>
+    <string name="title_activity_physics_example">PhysicsExample</string>
+    <string name="title_activity_level1">Level1</string>
+    <string name="title_activity_pause">Pause</string>
+    <string name="title_activity_motion_level1">MotionLevel1</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.trnkarthik.hitthefrog2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.AnimSprite"
+            android:label="@string/title_activity_anim_sprite" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.myMenuActivity"
+            android:label="@string/title_activity_menu_example" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.HighScores"
+            android:label="@string/title_activity_high_scores" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.DatabaseDemoActivity"
+            android:label="@string/title_activity_high_scores" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.PhysicsExample"
+            android:label="@string/title_activity_physics_example" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.Level1"
+            android:label="@string/title_activity_level1" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.Pause"
+            android:label="@string/title_activity_pause" >
+        </activity>
+        <activity
+            android:name="com.trnkarthik.hitthefrog2.MotionLevel1"
+            android:label="@string/title_activity_motion_level1" >
+        </activity>
+    </application>
+
+</manifest>
